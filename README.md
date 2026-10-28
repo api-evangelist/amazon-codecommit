@@ -64,5 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Amazon CodeCommit is a company surfaced via the API Evangelist harvest backlog (source: version-control) and added to the network as a stub for full-pipeline profiling.
-- https://aws.amazon.com/codecommit/
+Amazon CodeCommit is a fully managed source control service that hosts secure Git repositories. It enables developers to store and version code in the AWS cloud, integrates with other AWS services, provides fine‑grained access control, and supports pull requests, code reviews, and automated CI/CD pipelines. As part of the Amazon Web Services suite, CodeCommit offers high availability, encryption at rest and in transit, and scalable performance for teams of any size.
+
+**Areas:** Company · Version Control · AWS · Cloud
+
+## Amazon CodeCommit on APIs.io
+
+Everything profiled for Amazon CodeCommit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amazon-codecommit/](https://apis.io/providers/amazon-codecommit/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [CodeCommit API](https://apis.io/apis/amazon-codecommit/codecommit-api/) — AWS CodeCommit API provides operations for repositories, commits, branches, and pull requests.
+- [Amazon CodeCommit Codecommit Approval Rule Template API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-approval-rule-template-api/) — The Codecommit Approval Rule Template API from Amazon CodeCommit — 8 operation(s) for codecommit approval rule template.
+- [Amazon CodeCommit Codecommit Branch API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-branch-api/) — The Codecommit Branch API from Amazon CodeCommit — 3 operation(s) for codecommit branch.
+- [Amazon CodeCommit Codecommit Comment API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-comment-api/) — The Codecommit Comment API from Amazon CodeCommit — 4 operation(s) for codecommit comment.
+- [Amazon CodeCommit Codecommit Commit API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-commit-api/) — The Codecommit Commit API from Amazon CodeCommit — 3 operation(s) for codecommit commit.
+- [Amazon CodeCommit Codecommit File API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-file-api/) — The Codecommit File API from Amazon CodeCommit — 3 operation(s) for codecommit file.
+- [Amazon CodeCommit Codecommit Merge Conflict API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-merge-conflict-api/) — The Codecommit Merge Conflict API from Amazon CodeCommit — 3 operation(s) for codecommit merge conflict.
+- [Amazon CodeCommit Codecommit Operations API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-operations-api/) — The Codecommit Operations API from Amazon CodeCommit — 44 operation(s) for codecommit operations.
+- [Amazon CodeCommit Codecommit Pull Request API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-pull-request-api/) — The Codecommit Pull Request API from Amazon CodeCommit — 3 operation(s) for codecommit pull request.
+- [Amazon CodeCommit Codecommit Repository API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-repository-api/) — The Codecommit Repository API from Amazon CodeCommit — 6 operation(s) for codecommit repository.
+- [Amazon CodeCommit Codecommit Repository Trigger API](https://apis.io/apis/amazon-codecommit/amazon-codecommit-repository-trigger-api/) — The Codecommit Repository Trigger API from Amazon CodeCommit — 3 operation(s) for codecommit repository trigger.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amazon Codecommit Domain Security](https://apis.io/security/amazon-codecommit/amazon-codecommit-domain-security/)
+- [Amazon Codecommit Trust Center](https://apis.io/security/amazon-codecommit/amazon-codecommit-trust-center/)
+- [Amazon Codecommit Vulnerability Disclosure](https://apis.io/security/amazon-codecommit/amazon-codecommit-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aws.amazon.com/codecommit/)
+- [Documentation](https://docs.aws.amazon.com/codecommit/latest/userguide/)
+- [Getting started](https://aws.amazon.com/codecommit/getting-started/)
+- [API reference](https://docs.aws.amazon.com/codecommit/latest/APIReference/)
+- [Pricing](https://aws.amazon.com/codecommit/pricing/)
+- [Sign up](https://signin.aws.amazon.com/signup?request_type=builderId)
+- [Support](https://aws.amazon.com/contact-us/)
+- [Blog](https://aws.amazon.com/blogs/aws/category/developer-tools/)
+- [Security](https://aws.amazon.com/security/?nc2=h_dsc_aa_sec)
+- [Compliance](https://aws.amazon.com/compliance/)
+- [Terms of service](https://developer.amazon.com/terms-and-agreements)
+- [Privacy policy](https://aws.amazon.com/privacy/)
+- [GitHub](https://github.com/aws)
+
+## API Evangelist rating
+
+**Kin Score 34.6** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 60.5 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amazon-codecommit/](https://apis.io/providers/amazon-codecommit/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amazon CodeCommit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amazon-codecommit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
